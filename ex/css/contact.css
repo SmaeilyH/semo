@@ -1,0 +1,19 @@
+#contact { display: block; width: auto; margin: 0; padding: 0px; border: none; background:#fff; overflow:visible }
+
+#contact label { display: none; float: none; height:0px; }
+input, textarea, select { width:300px; padding:20px 25px 22px 25px; font: 15px 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color:#555; border:0; border-bottom:1px solid #ccc; -webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; float:none; display:block;}
+#contact input.third { margin: 0px 0px 0px 0 !important; }
+#contact textarea { margin-bottom:0px; margin-right:0px !important; width:236px; border:0px; border-right:1px solid #ccc; height:100px; display:block; }
+
+input:focus, textarea:focus, select:focus { background:#f8f8f8; }
+input.submit { display:block; position:absolute; bottom:0px; right:0px; width:64px; height:100px; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; border:0px; padding:0px; background:url(../images/bg-send.png) center center no-repeat; background-size:24px 28px; text-indent:-9999px; cursor:pointer}
+#contact input.submit:hover { background-color:#f8f8f8; }
+
+
+#contact fieldset { padding-left:0px;}
+
+#message { margin: 0; padding: 0px; z-index:5500; position:absolute !important; top:0px; left:0px; background:#fff; height:100%; min-height:100%; }
+#success_page { display: block; width:300px; height:100%; min-height:100%; padding:30px 35px; }
+.error_message { display: block; width:300px; height:100%; min-height:100%; padding:30px 35px; background:url(../img/bg-close.png) no-repeat 247px 234px #FBE3E4;  background-size:18px 18px; color:#8a1f11; cursor:pointer }
+
+#contact .padding-right {padding-right:20px; }

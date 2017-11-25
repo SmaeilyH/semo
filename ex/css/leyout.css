@@ -1,0 +1,112 @@
+html, body {
+  background: rgba(20,20,20,1);
+}
+
+.logo_start {
+    background-color: #6497f6;
+    height: 75%;
+    text-align: center;
+    color:#fff;
+}
+
+.footer {
+    direction: rtl;
+    background-color: #6497f6;
+    min-height:  200px;
+    text-align: center;
+}
+
+.footer * {
+    margin: 0;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.footer a{
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: #000;
+}
+
+.logo_arrow {
+    border-radius: 999px;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    top: -50px;
+    position: relative;
+}
+
+#arrow {
+    border-radius: 99px;
+    font-size: 100px;
+    color: #fff;
+    position: absolute;
+    text-decoration: none;
+    background-color: rgba(20,20,20,1);
+}
+
+.about-box {
+    margin: 0 auto;
+    background-color: rgba(0,0,0,.2);
+    width: 95%;
+    border: #95baff 5px solid;
+    color: #fff;
+    min-height: 1000px;
+}
+
+#logo{
+    width: 45%;
+    max-height: 75%;
+    margin: 0 auto;
+}
+
+.imgspecial{
+/*    height: 200px;*/
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+     direction: rtl
+}
+
+.imgspecial img{
+    width:19%; 
+    max-width: 150px;
+    margin: 0 auto;
+    -webkit-filter: grayscale(75%);
+    filter: grayscale(75%);
+    margin-left: 15px;
+}
+
+.imgspecial img:hover{
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    max-width: 160px;
+    width:22%; 
+    -webkit-transition: width 0.5s, max-width 0.5s, height 0.5s, filter 0.5s ease-in-out; /* For Safari 3.1 to 6.0 */
+    transition: width 0.5s, max-width 0.5s, height 0.5s, filter 0.5s ease-in-out;
+}
+
+.ptd-box{
+    margin: 0 auto;
+    background-color: rgba(0,0,0,.2);
+    width: 95%;
+    min-height: 60%;
+    border: #95baff 5px solid;
+    text-align: center;
+    color: #fff;
+    direction: rtl;
+}
+
+.ptd-box img{
+    max-width: 80%;
+}
+
+.clearfix{
+    position: static;
+}
